@@ -78,6 +78,7 @@ homebrew_cask_apps:
   - slack
   - sublime-text
   - transmit
+<<<<<<< HEAD
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
