@@ -61,7 +61,6 @@ homebrew_cask_apps:
   - chromedriver
   - docker
   - firefox
-  # - google-chrome
   - brave-browser
   - handbrake
   - licecap
@@ -80,7 +79,6 @@ homebrew_cask_apps:
   - webex-meetings
   - fantastical
   - macfuse
-  # - 1password
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
@@ -89,7 +87,6 @@ mas_installed_apps:
   - {id: 985367838, name: "Microsoft Outlook"}
   - {id: 462058435, name: "Microsoft Excel"}
   - {id: 462062816, name: "Microsoft PowerPoint"}
-  # - { id: 1274495053, name: "Microsoft To Do "}
   - {id: 823766827, name: "OneDrive" }
   - {id: 1091189122, name: "Bear – Markdown Notes"}
   - {id: 1352778147, name: "Bitwarden"}
