@@ -1,0 +1,147 @@
+---
+downloads: ~/.ansible-downloads/
+
+configure_dotfiles: false
+configure_terminal: false
+configure_osx: false
+
+# Set to 'true' to configure the Dock via dockutil.
+configure_dock: false
+dockitems_remove: []
+# - Launchpad
+# - TV
+# - Podcasts
+# - 'App Store'
+dockitems_persist: []
+# - name: "Sublime Text"
+#   path: "/Applications/Sublime Text.app/"
+#   pos: 5
+
+configure_sudoers: false
+sudoers_custom_config: ''
+# Example:
+# sudoers_custom_config: |
+#   # Allow users in admin group to use sudo with no password.
+#   %admin ALL=(ALL) NOPASSWD: ALL
+
+dotfiles_repo: git@github.com:skanct/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_version: main
+dotfiles_repo_local_destination: ~/Development/github.com/dotfiles
+dotfiles_files:
+  - .gitconfig
+  - .osx
+  - .config
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - git
+  - gpg
+  - httpie
+  - sqlite
+  - mcrypt
+  - nmap
+  - ssh-copy-id
+  - readline
+  - openssl
+  - wget
+  - nvim
+  - mas
+  - htop
+  - bat
+  - exa
+  - jq
+  - awscli
+  - mosh
+  - tmux
+  - gh
+  - git-delta
+  - fd
+  - ripgrep
+  - mcfly
+  - pinentry-mac
+  - fzf
+  - stow
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+  - homebrew/cask-fonts
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - chromedriver
+  - docker
+  - firefox
+  - google-chrome
+  - brave-browser
+  - handbrake
+  - licecap
+  - slack
+  - visual-studio-code
+  - alfred
+  - mailmate
+  - zoom
+  - microsoft-teams
+  - little-snitch
+  - keybase
+  - kitty
+  - skype
+  - font-jetbrains-mono-nerd-font
+
+# See `geerlingguy.mas` role documentation for usage instructions.
+mas_installed_apps:
+  - { id: 1333542190, name: "1Password 7 - Password Manager" }
+  - { id: 1317704208, name: "eduVPN client"}
+  - { id: 462054704, name: "Microsoft Word"}
+  - { id: 985367838, name: "Microsoft Outlook"}
+  - { id: 462058435, name: "Microsoft Excel"}
+  - { id: 462062816, name: "Microsoft PowerPoint"}
+  - { id: 1274495053, name: "Microsoft To Do "}
+  - { id: 823766827, name: "OneDrive"}
+  - { id: 1091189122, name: "Bear – Markdown Notes"}
+mas_email: ""
+mas_password: ""
+
+osx_script: "~/.osx --no-restart"
+
+# Install packages from other package managers.
+# Note: You are responsible for making sure the required package managers are
+# installed, eg. through homebrew.
+composer_packages: []
+# - name: drush
+#   state: present # present/absent, default: present
+#   version: "^8.1" # default: N/A
+gem_packages: []
+# - name: bundler
+#   state: present # present/absent/latest, default: present
+#   version: "~> 1.15.1" # default: N/A
+npm_packages: []
+# - name: webpack
+#   state: present # present/absent/latest, default: present
+#   version: "^2.6" # default: N/A
+pip_packages: []
+# - name: mkdocs
+#   state: present # present/absent/latest, default: present
+#   version: "0.16.3" # default: N/A
+
+# Set to 'true' to configure Sublime Text.
+configure_sublime: false
+sublime_base_path: '~/Library/Application Support/Sublime Text'
+sublime_config_path: "Packages/User"
+sublime_package_control:
+  - "DocBlockr"
+  - "Dockerfile Syntax Highlighting"
+  - "FileDiffs"
+  - "GitHub Flavored Markdown Preview"
+  - "Jinja2"
+  - "Package Control"
+  - "PHP-Twig"
+  - "Pretty JSON"
+  - "SublimeLinter"
+  - "SublimeLinter-contrib-yamllint"
+  - "TrailingSpaces"
+  - "WordCount"
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+post_provision_tasks: []
