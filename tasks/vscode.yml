@@ -1,0 +1,6 @@
+---
+- name: Ensure vscode extensions are installed.
+  command: "code --install-extension {{ item }}"
+  with_items: "{{ vsode_extensions | default([]) }}"
+  when: install_vscode_extensions
+  become: false
