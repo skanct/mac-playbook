@@ -1,0 +1,4 @@
+---
+- name: "Ensure timezone is set to {{ timezone }}."
+  command: "systemsetup -settimezone {{ timezone }}"
+  become: true

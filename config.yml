@@ -1,6 +1,8 @@
 ---
 downloads: ~/.ansible-downloads/
 
+timezone: Europe/Amsterdam
+
 configure_dotfiles: true
 configure_osx: true
 
@@ -28,7 +30,7 @@ homebrew_installed_packages:
   - exa
   - jq
   - awscli
-  - mosh
+  - { name: mosh, install_options: HEAD }
   - tmux
   - gh
   - git-delta
@@ -38,6 +40,7 @@ homebrew_installed_packages:
   - pinentry-mac
   - fzf
   - stow
+  - zoxide
 
 homebrew_taps:
   - homebrew/core
@@ -100,6 +103,8 @@ pip_packages: []
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
 #   version: "0.16.3" # default: N/A
+
+install_nvim_plugins: true
 
 install_vscode_extensions: true
 vscode_extensions:

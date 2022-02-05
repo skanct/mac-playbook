@@ -1,0 +1,5 @@
+---
+- name: Ensure nvim plugins are installed.
+  command: "nvim +'plugInstall --sync' +'UpdateRemovePlugins --sync' +qa"
+  when: install_nvim_plugins
+  become: false
