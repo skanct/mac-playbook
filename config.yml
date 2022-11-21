@@ -41,6 +41,9 @@ homebrew_installed_packages:
   - fzf
   - stow
   - zoxide
+  - node
+  - yarn
+  - libxmlsec1
 
 homebrew_taps:
   - homebrew/core
@@ -67,6 +70,10 @@ homebrew_cask_apps:
   - kitty
   - skype
   - font-jetbrains-mono-nerd-font
+  - screenflow
+  - webex-meetings
+  - fantastical
+  - macfuse
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
@@ -99,7 +106,9 @@ npm_packages: []
 # - name: webpack
 #   state: present # present/absent/latest, default: present
 #   version: "^2.6" # default: N/A
-pip_packages: []
+pip_packages:
+  - name: ipython
+    state: present
 # - name: mkdocs
 #   state: present # present/absent/latest, default: present
 #   version: "0.16.3" # default: N/A
