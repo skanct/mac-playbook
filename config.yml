@@ -3,13 +3,13 @@ downloads: ~/.ansible-downloads/
 
 timezone: Europe/Amsterdam
 
-configure_dotfiles: True
-configure_terminal: True
-configure_osx: True
-configure_dock: False
+configure_dotfiles: true
+configure_terminal: true
+configure_osx: true
+configure_dock: false
 dockitems_remove: []
 dockitems_persist: []
-configure_sudoers: False
+configure_sudoers: false
 sudoers_custom_config: ''
 
 
@@ -22,9 +22,10 @@ homebrew_installed_packages:
   # - ansible # Installed via Pip.
   - git
   - gpg
+  - go
+  - lazygit
   - httpie
   - sqlite
-  - mcrypt
   - nmap
   - ssh-copy-id
   - readline
@@ -93,6 +94,7 @@ mas_installed_apps:
   - {id: 1091189122, name: "Bear – Markdown Notes"}
   - {id: 1352778147, name: "Bitwarden"}
   - {id: 1451685025, name: "WireGuard"}
+  - {id: 585829637, name: "Todoist"}
 mas_email: ""
 mas_password: ""
 
