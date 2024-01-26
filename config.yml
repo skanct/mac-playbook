@@ -20,6 +20,7 @@ dotfiles_repo_local_destination: ~/Development/github.com/dotfiles
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - asdf
   - git
   - gpg
   - go
@@ -35,7 +36,6 @@ homebrew_installed_packages:
   - mas
   - htop
   - bat
-  - exa
   - jq
   - awscli
   - { name: mosh, install_options: HEAD }
@@ -69,16 +69,13 @@ homebrew_cask_apps:
   - alfred
   - mailmate
   - zoom
-  # - microsoft-teams
-  # - little-snitch
-  # - keybase
   - kitty
-  - skype
   - font-jetbrains-mono-nerd-font
   - screenflow
   - webex-meetings
   - fantastical
   - macfuse
+  - signal
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
