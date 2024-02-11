@@ -23,9 +23,6 @@
       when: configure_osx
       tags: ['osx']
 
-    - import_tasks: tasks/extra-packages.yml
-      tags: ['extra-packages']
-
     - import_tasks: tasks/nvim.yml
       tags: ['nvim']
 

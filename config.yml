@@ -105,8 +105,4 @@ vscode_extensions:
   - ms-vscode-remote.remote-ssh
   - yzhang.markdown-all-in-one
 
-composer_packages: []
-gem_packages: []
-npm_packages: []
-pip_packages: []
 post_provision_tasks: []
