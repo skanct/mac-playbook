@@ -10,13 +10,12 @@ Follow these steps to get started:
 2. **Clone or Download This Repository**: Save it to your local machine.
 3. **Prepare Your Environment**:
     1. Navigate to the repository's directory.
-    2. Create a Python virtual environment: `python -m venv venv`
+    2. Create a Python virtual environment: `python3 -m venv venv`
     3. Activate the virtual environment: `. venv/bin/activate`
 4. **Install Ansible**:
     1. Upgrade Pip for the latest features and security improvements: `pip3 install --upgrade pip`
     2. Install Ansible to manage your setup: `pip3 install ansible`
-5. **Install Required Ansible Roles**: Run `ansible-galaxy install -r requirements.yml` in the directory to prepare your environment.
-6. **Run the Playbook**: Execute `ansible-playbook main.yml --ask-become-pass` and enter your macOS account password when prompted for the 'BECOME' password.
+5. **Run the Playbook**: Execute `ansible-playbook main.yml --ask-become-pass` and enter your macOS account password when prompted for the 'BECOME' password.
 
 > **Troubleshooting**: If you encounter Homebrew errors, you may need to accept Xcode's license or address other issues. Use `brew doctor` to diagnose and fix these problems.
 
@@ -42,4 +41,4 @@ ansible-playbook main.yml -K --tags "dotfiles,homebrew"
 
 ## Dotfiles Management
 
-My [dotfiles](https://githhub.com/skanct/dotfiles) are managed through this playbook, including the `.osx` shell script for optimizing macOS settings. To skip `dotfiles` management, set `configure_dotfiles: no` in your configuration.
+My `dotfiles` [[Github]](https://githhub.com/skanct/dotfiles)[[GEANT]](https://gitlab.geant.org/christos.kanellopoulos/dotfiles) are managed through this playbook, including the `.osx` shell script for optimizing macOS settings. To skip `dotfiles` management, set `configure_dotfiles: no` in your configuration.
