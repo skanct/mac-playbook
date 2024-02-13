@@ -41,4 +41,4 @@ ansible-playbook main.yml -K --tags "dotfiles,homebrew"
 
 ## Dotfiles Management
 
-My `dotfiles` [[Github]](https://githhub.com/skanct/dotfiles)[[GEANT]](https://gitlab.geant.org/christos.kanellopoulos/dotfiles) are managed through this playbook, including the `.osx` shell script for optimizing macOS settings. To skip `dotfiles` management, set `configure_dotfiles: no` in your configuration.
+My `dotfiles` [[Github]](https://github.com/skanct/dotfiles)[[GEANT]](https://gitlab.geant.org/christos.kanellopoulos/dotfiles) are managed through this playbook, including the `.osx` shell script for optimizing macOS settings. To skip `dotfiles` management, set `configure_dotfiles: no` in your configuration.
