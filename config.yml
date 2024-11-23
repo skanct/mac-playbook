@@ -53,6 +53,9 @@ homebrew_installed_packages:
   - node
   - yarn
   - libxmlsec1
+  - pdm
+  - uv
+  - ruff
 
 homebrew_taps:
   - homebrew/cask-fonts
