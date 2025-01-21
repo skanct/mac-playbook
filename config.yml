@@ -58,6 +58,8 @@ homebrew_installed_packages:
   - ruff
   - helix
   - atuin
+  - mdformat
+  - marksman
 
 homebrew_taps:
   - homebrew/cask-fonts
@@ -85,6 +87,10 @@ homebrew_cask_apps:
   - screenflow
   - podman-desktop
   - nikitabobko/tap/aeropspace
+  - felixkratz/formulae/borders
+  - font-sf-pro
+  - bruno
+  - ghostty
 
 mas_installed_apps:
   - {id: 1317704208, name: "eduVPN client"}
