@@ -67,13 +67,11 @@ homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - docker
   - macfuse
-  - wezterm
   - font-jetbrains-mono-nerd-font
   - font-fira-code-nerd-font
   - visual-studio-code
   - brave-browser
   - firefox
-  - orion
   - mailmate
   - fantastical
   - signal
@@ -98,7 +96,6 @@ mas_installed_apps:
   - { id: 462058435, name: "Microsoft Excel" }
   - { id: 462062816, name: "Microsoft PowerPoint" }
   - { id: 823766827, name: "OneDrive" }
-  - { id: 1091189122, name: "Bear – Markdown Notes" }
   - { id: 1352778147, name: "Bitwarden" }
   - { id: 1451685025, name: "WireGuard" }
   - { id: 585829637, name: "Todoist" }
