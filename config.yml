@@ -59,6 +59,7 @@ homebrew_installed_packages:
   - atuin
   - mdformat
   - marksman
+  - lima
 
 homebrew_taps:
   - homebrew/cask-fonts
