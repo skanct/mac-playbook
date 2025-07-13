@@ -10,8 +10,7 @@ configure_dock: false
 dockitems_remove: []
 dockitems_persist: []
 configure_sudoers: false
-sudoers_custom_config: ''
-
+sudoers_custom_config: ""
 
 dotfiles_repo: git@github.com:skanct/dotfiles.git
 dotfiles_repo_accept_hostkey: True
@@ -93,16 +92,16 @@ homebrew_cask_apps:
   - ghostty
 
 mas_installed_apps:
-  - {id: 1317704208, name: "eduVPN client"}
-  - {id: 462054704, name: "Microsoft Word"}
-  - {id: 985367838, name: "Microsoft Outlook"}
-  - {id: 462058435, name: "Microsoft Excel"}
-  - {id: 462062816, name: "Microsoft PowerPoint"}
-  - {id: 823766827, name: "OneDrive" }
-  - {id: 1091189122, name: "Bear – Markdown Notes"}
-  - {id: 1352778147, name: "Bitwarden"}
-  - {id: 1451685025, name: "WireGuard"}
-  - {id: 585829637, name: "Todoist"}
+  - { id: 1317704208, name: "eduVPN client" }
+  - { id: 462054704, name: "Microsoft Word" }
+  - { id: 985367838, name: "Microsoft Outlook" }
+  - { id: 462058435, name: "Microsoft Excel" }
+  - { id: 462062816, name: "Microsoft PowerPoint" }
+  - { id: 823766827, name: "OneDrive" }
+  - { id: 1091189122, name: "Bear – Markdown Notes" }
+  - { id: 1352778147, name: "Bitwarden" }
+  - { id: 1451685025, name: "WireGuard" }
+  - { id: 585829637, name: "Todoist" }
 mas_email: ""
 mas_password: ""
 
